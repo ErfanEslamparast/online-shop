@@ -1,0 +1,23 @@
+.card-title{
+    font-weight: 600!important;
+    font-size: 1.2rem;
+    height: 2rem;
+}
+.card button{
+    border: none;
+    background-color: #059a61;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+}
+.product-price{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #f6234d;
+}
+@media screen and (min-width:768px){
+    .col-md-4{
+        width: 32.3%!important;
+    }
+}
