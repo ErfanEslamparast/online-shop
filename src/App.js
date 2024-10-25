@@ -15,7 +15,7 @@ function App() {
       <Filters />
       <main className='row mt-4 position-relative'>
         <div className="col-12 col-md-9"><Products /></div>
-        <div className="cart-show position-absolute" onClick={()=>setShowCart(true)}><MdOutlineShoppingCart  /></div>
+        <div className="cart-show position-absolute d-md-none" onClick={()=>setShowCart(true)}><MdOutlineShoppingCart  /></div>
         <div className=" col-md-3 "><Cart showCart={showCart}setShowCart={setShowCart}/></div>
         {/* position-fixed end-0 */}
       </main>
